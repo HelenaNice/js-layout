@@ -1,3 +1,8 @@
-import '../../script/test'
+import { createElement } from "../../script/layout";
 
-console.log('container')
+const page = document.querySelector ('.page')
+
+const title = createElement( 'h1', 'title', 'Коммьюніті')
+
+page.append(title)
+
